@@ -12,6 +12,13 @@
 //
 //= require jquery
 //= require bootstrap-sprockets
+//= require js/custom
+//= require plugins/owl-carousel/owl.carousel.min
+//= require js/jquery.easing.min
+//= require plugins/countTo/jquery.countTo
+//= require plugins/inview/jquery.inview.min
+//= require plugins/Lightbox/dist/js/lightbox.min
+//= require plugins/WOW/dist/wow.min
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .

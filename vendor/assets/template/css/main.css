@@ -153,7 +153,7 @@ Buttons Styles
 }
 
 /* ==========================================================================
-Layout 
+Layout
 ========================================================================== */
 .dark-bg {
   background: #24242a;
@@ -570,7 +570,7 @@ Our Team Style
 Testimonials Style
 ========================================================================== */
 #testimonials {
-  background-image: url("../img/testimonials/Testimonials.jpg");
+  background: asset-data-url("Testimonials.jpg");
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;

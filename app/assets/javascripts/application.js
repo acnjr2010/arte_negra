@@ -11,14 +11,14 @@
 // about supported directives.
 //
 //= require jquery
-//= require bootstrap-sprockets
 //= require jquery_ujs
-//= require js/custom
+//= require bootstrap-sprockets
+//= require turbolinks
 //= require plugins/owl-carousel/owl.carousel.min
 //= require js/jquery.easing.min
 //= require plugins/countTo/jquery.countTo
 //= require plugins/inview/jquery.inview.min
 //= require plugins/Lightbox/dist/js/lightbox.min
 //= require plugins/WOW/dist/wow.min
-//= require turbolinks
+//= require js/custom
 //= require_tree .

@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require turbolinks
+//= require lightbox
 //= require plugins/owl-carousel/owl.carousel.min
 //= require js/jquery.easing.min
 //= require plugins/countTo/jquery.countTo

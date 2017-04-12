@@ -516,6 +516,82 @@ Our bio Style
   text-align: left;
 }
 
+
+/* ==========================================================================
+Our fotos Style
+========================================================================== */
+#fotos {
+padding: 60px 0;
+text-align: center;
+}
+#fotos h2 {
+text-transform: uppercase;
+}
+#fotos .fotos {
+margin-top: 40px;
+margin-bottom: 20px;
+}
+#fotos .fotos h4 {
+margin-top: 20px;
+text-transform: uppercase;
+font-weight: 700;
+}
+#fotos .fotos p {
+color: #a3a3a3;
+}
+#fotos .fotos a {
+color: #0d0d0d;
+font-size: 22px;
+padding-right: 10px;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+#fotos .fotos a:hover,
+#fotos .fotos a:focus,
+#fotos .fotos a:active {
+color: #a3a3a3;
+}
+
+/* ==========================================================================
+Our videos Style
+========================================================================== */
+#videos {
+padding: 60px 0;
+text-align: center;
+}
+#videos h2 {
+text-transform: uppercase;
+}
+#videos .videos {
+margin-top: 40px;
+margin-bottom: 20px;
+}
+#videos .videos h4 {
+margin-top: 20px;
+text-transform: uppercase;
+font-weight: 700;
+}
+#videos .videos p {
+color: #a3a3a3;
+}
+#videos .videos a {
+color: #0d0d0d;
+font-size: 22px;
+padding-right: 10px;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+#videos .videos a:hover,
+#videos .videos a:focus,
+#videos .videos a:active {
+color: #a3a3a3;
+}
+
+
 /* ==========================================================================
 Contact Us Style
 ========================================================================== */

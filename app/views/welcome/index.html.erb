@@ -6,75 +6,9 @@
 
 <%= render 'layouts/midias' %>
 
-  <section id="team">
-      <div class="container">
-          <h2>Our Team</h2>
-          <hr class="sep">
-          <p>Designers Behind This Work</p>
-          <div class="row wow fadeInUp" data-wow-delay=".3s">
-              <div class="col-md-4">
-                  <div class="team">
-                      <%= image_tag "team/MariaDoe.jpg", class: 'img-responsive center-block' %>
-                      <h4>Maria Doe</h4>
-                      <p>Designer</p>
-                      <div class="team-social-icons">
-                          <a href="#"><i class="fa fa-facebook"></i></a>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                          <a href="#"><i class="fa fa-dribbble"></i></a>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <div class="team">
-                      <%= image_tag "team/JasonDoe.jpg", class: 'img-responsive center-block' %>
-                      <h4>Jason Doe</h4>
-                      <p>Developer</p>
-                      <div class="team-social-icons">
-                          <a href="#"><i class="fa fa-facebook"></i></a>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                          <a href="#"><i class="fa fa-dribbble"></i></a>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <div class="team">
-                      <%= image_tag "team/MikeDoe.jpg", class: 'img-responsive center-block' %>
-                      <h4>Mike Doe</h4>
-                      <p>Photographer</p>
-                      <div class="team-social-icons">
-                          <a href="#"><i class="fa fa-facebook"></i></a>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                          <a href="#"><i class="fa fa-dribbble"></i></a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-  <!-- Contact Us
-============================================= -->
-  <section id="contact">
-      <div class="container">
-          <h2>Contact Us</h2>
-          <hr class="sep">
-          <p>Get In Touch</p>
-          <div class="col-md-6 col-md-offset-3 wow fadeInUp" data-wow-delay=".3s">
-              <form>
-                  <div class="form-group">
-                      <input type="text" class="form-control" id="Name" placeholder="Name">
-                  </div>
-                  <div class="form-group">
-                      <input type="text" class="form-control" id="Email" placeholder="Email">
-                  </div>
-                  <div class="form-group">
-                      <textarea class="form-control" rows="3" placeholder="Message"></textarea>
-                  </div>
-                  <a href="#" class="btn-block">Send</a>
-              </form>
-          </div>
-      </div>
-  </section>
+<%= render 'layouts/bio' %>
 
+<%= render 'layouts/contact' %>
   <!-- Footer
 ============================================= -->
   <footer>

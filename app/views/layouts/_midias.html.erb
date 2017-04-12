@@ -1,0 +1,71 @@
+<section id="midias">
+  <div class="container-fluid">
+    <h2>CD / DVD</h2>
+    <hr class="sep">
+    <p>Um pouco da Arte Negra junto com você.</p>
+
+    <div class="content-section-a">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-sm-6">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">CD No Balanço da Arte Negra</h2>
+            <p class="lead">Lançado em 2008 no Evento de XV Anos da Arte Negra de São Vicente. Caso queira adquirir uma cópia clique no botão abaixo</p>
+            <p class="lead">
+              <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+              <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+                <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                <input type="hidden" name="code" value="1023B56C0F0F202DD4BB1F9292EF62D4" />
+                <input type="hidden" name="iot" value="button" />
+                <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar-azul.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+              </form>
+              <script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+              <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+            </p>
+          </div>
+          <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+            <%= image_tag "cd.png", class: "img-responsive"  %>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">DVD No Balanço da Arte Negra</h2>
+            <p class="lead">Lançado em 2009 durante o 12º Batisado e Troca de Graduação da Associação de Capoeira Arte Negra. Caso queira adquirir clique no botão abaixo.</p>
+            <p class="lead">
+              <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+              <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+                <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                <input type="hidden" name="code" value="791DE0B90D0D3CD22498DFBCBC5890FF" />
+                <input type="hidden" name="iot" value="button" />
+                <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar-azul.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+              </form>
+              <script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+              <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+            </p>
+          </div>
+          <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+            <%= image_tag "dvd.png", class: "img-responsive"  %>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+    </div>
+  </div>
+</section>

@@ -361,79 +361,79 @@ Welcome Style
 }
 
     /* ==========================================================================
-Services Style
+eventos Style
 ========================================================================== */
-#services {
+#eventos {
   background: #24242a;
   padding: 60px 0;
   text-align: center;
 }
-#services h2 {
+#eventos h2 {
   text-transform: uppercase;
   color: #fff;
 }
-#services p {
+#eventos p {
   color: #fff;
 }
-#services .services-box {
+#eventos .eventos-box {
   margin-top: 40px;
 }
-#services .services-box .col-md-4 {
+#eventos .eventos-box .col-md-4 {
   margin-bottom: 20px;
 }
-#services .services-box .col-md-4 .media-left,
-#services .services-box .col-md-4 .media-right,
-#services .services-box .col-md-4 .media-body {
+#eventos .eventos-box .col-md-4 .media-left,
+#eventos .eventos-box .col-md-4 .media-right,
+#eventos .eventos-box .col-md-4 .media-body {
   padding-right: 30px;
   vertical-align: baseline;
 }
-#services .services-box .col-md-4 .media-left p,
-#services .services-box .col-md-4 .media-right p,
-#services .services-box .col-md-4 .media-body p {
+#eventos .eventos-box .col-md-4 .media-left p,
+#eventos .eventos-box .col-md-4 .media-right p,
+#eventos .eventos-box .col-md-4 .media-body p {
   text-align: left;
 }
-#services .services-box .col-md-4 .media-left h3,
-#services .services-box .col-md-4 .media-right h3,
-#services .services-box .col-md-4 .media-body h3 {
+#eventos .eventos-box .col-md-4 .media-left h3,
+#eventos .eventos-box .col-md-4 .media-right h3,
+#eventos .eventos-box .col-md-4 .media-body h3 {
   text-transform: uppercase;
   color: #fff;
   text-align: left;
 }
-#services .services-box .col-md-4 .media-left span,
-#services .services-box .col-md-4 .media-right span,
-#services .services-box .col-md-4 .media-body span {
+#eventos .eventos-box .col-md-4 .media-left span,
+#eventos .eventos-box .col-md-4 .media-right span,
+#eventos .eventos-box .col-md-4 .media-body span {
   font-size: 36px;
   color: #fff;
 }
 
     /* ==========================================================================
-Portfolio Style
+midias Style
 ========================================================================== */
-#portfolio {
+#midias {
   padding: 60px 0;
   text-align: center;
 }
-#portfolio h2 {
+#midias h2 {
   text-transform: uppercase;
 }
-#portfolio p {
+#midias p {
   margin-bottom: 40px;
 }
-#portfolio .container-fluid {
+#midias .container-fluid {
   padding-left: 0;
   padding-right: 0;
 }
-#portfolio .container-fluid .col-lg-4 {
+#midias .container-fluid .col-lg-4 {
   padding-left: 0;
   padding-right: 0;
 }
-#portfolio .portfolio-box {
+#midias .midias-box {
   display: block;
   position: relative;
   margin: 0 auto;
   max-width: 650px;
 }
-#portfolio .portfolio-box .portfolio-box-caption {
+#midias .midias-box .midias-box-caption {
   display: block;
   position: absolute;
   bottom: 0;
@@ -448,26 +448,26 @@ Portfolio Style
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+#midias .midias-box .midias-box-caption .midias-box-caption-content {
   position: absolute;
   top: 50%;
   width: 100%;
   text-align: center;
   transform: translateY(-50%);
 }
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+#midias .midias-box .midias-box-caption .midias-box-caption-content .project-category,
+#midias .midias-box .midias-box-caption .midias-box-caption-content .project-name {
   padding: 0 15px;
 }
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+#midias .midias-box .midias-box-caption .midias-box-caption-content .project-category {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 700;
 }
-#portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+#midias .midias-box .midias-box-caption .midias-box-caption-content .project-name {
   font-size: 18px;
 }
-#portfolio .portfolio-box:hover .portfolio-box-caption {
+#midias .midias-box:hover .midias-box-caption {
   opacity: 1;
 }
 
@@ -702,8 +702,8 @@ Media Queries Style
     display: none;
   }
 
-  /*-- Services --*/
-  #services h3 {
+  /*-- eventos --*/
+  #eventos h3 {
     font-size: 22px;
   }
 

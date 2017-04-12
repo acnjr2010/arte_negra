@@ -2,10 +2,11 @@
 
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
+Rails.application.config.assets.precompile += %w(plugins/owl-carousel/owl.carousel.css plugins/owl-carousel/owl.theme.css plugins/owl-carousel/owl.transitions.css plugins/Lightbox/dist/css/lightbox.css plugins/Icons/et-line-font/style.css plugins/animate.css/animate.css css/main)
 
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-# Rails.application.config.assets.precompile += %w( search.js )
+Rails.application.config.assets.precompile += %w( lightbox.js plugins/owl-carousel/owl.carousel.min.js js/jquery.easing.min.js plugins/countTo/jquery.countTo.js plugins/inview/jquery.inview.min.js plugins/Lightbox/dist/js/lightbox.min.js plugins/WOW/dist/wow.min.js js/custom.js )

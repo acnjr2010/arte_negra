@@ -285,16 +285,16 @@ Sliders Style
   margin: 0;
 }
 
-#owl-hero .item .item_01 {
-  background-image: asset-data-url("image001");
+.background01 {
+  background-image: asset-data-url("image001.jpg");
 }
 
-#owl-hero .item .item_02 {
-  background-image: asset-data-url("image002");
+.background02 {
+  background-image: asset-data-url("image002.jpg");
 }
 
-#owl-hero .item .item_03 {
-  background-image: asset-data-url("image003");
+.background03 {
+  background-image: asset-data-url("image003.jpg");
 }
 
 #owl-hero .owl-pagination {

@@ -14,6 +14,7 @@ gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'font-awesome-sass', '~> 4.7'
 gem 'figaro'
 gem 'puma'
+gem 'rails_12factor', group: :production
 
 group :development, :test do
   gem 'byebug'

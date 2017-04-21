@@ -29,3 +29,13 @@ group :development do
   gem 'capistrano-bundler', require: false
   gem 'capistrano-rvm'
 end
+
+group :test do
+  gem 'factory_girl_rails'
+  gem 'faker'
+  gem 'pry-rails'
+  gem 'rspec-rails'
+  gem 'simplecov', require: false
+  gem 'database_cleaner'
+  gem 'shoulda-matchers', require: false
+end

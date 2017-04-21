@@ -1,6 +1,6 @@
 /* Preload images */
 body:after {
-  content: url(<%= image_path('close.png')%>) url(<%= image_path('loading.gif')%>) url(<%= image_path('prev.png')%>) url(<%= image_path('next.png')%>);
+  content: asset-data-url("close.png")) url(<%= image_path('loading.gif')%>) url(<%= image_path('prev.png')%>) url(<%= image_path('next.png')%>);
   display: none;
 }
 
@@ -189,7 +189,7 @@ body.lb-disable-scrolling {
   float: right;
   width: 30px;
   height: 30px;
-  background: url(<%= image_path('close.png')%>) top right no-repeat;
+  background-image: asset-data-url("close.png") top right no-repeat;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);

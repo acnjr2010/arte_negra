@@ -1,7 +1,13 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Evento.create(title: "EVENTO XX ANOS", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
+Evento.create(title: "EVENTO XV ANOS", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
+Evento.create(title: "EVENTO X ANOS", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
+Evento.create(title: "EVENTO X ANOS ARTE NEGRA SC", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
+Evento.create(title: "EVENTO VALTINHO DA SENZALA 2016", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
+Evento.create(title: "EVENTO SENZALA DE SANTOS 2016", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
+
+Video.create(title: "Homenagem ao Mestre Sombra", video: "<iframe width='560' height='315' src='https://www.youtube.com/embed/llhgZB5iPsI?rel=0' frameborder='0' allowfullscreen></iframe>")
+Video.create(title: "Roda dos Aniversariantes de Janeiro", video: "<iframe width='560' height='315' src='https://www.youtube.com/embed/_R1q93Z2Bjk?rel=0' frameborder='0' allowfullscreen></iframe>")
+Video.create(title: "Pretão jogando com Junior", video: "<iframe width='560' height='315' src='https://www.youtube.com/embed/zFKPMJd4d9Y?rel=0' frameborder='0' allowfullscreen></iframe>")
+Video.create(title: "Novo Espaço Arte Negra", video: "<iframe width='560' height='315' src='https://www.youtube.com/embed/MspeeePzJX4?rel=0' frameborder='0' allowfullscreen></iframe>")
+Video.create(title: "Movimento Antigo: Mestre Eliseu e Professor Val", video: "<iframe width='560' height='315' src='https://www.youtube.com/embed/h9o9t_MSQII?rel=0' frameborder='0' allowfullscreen></iframe>")
+Video.create(title: "Roda no Mestre Valtinho dia 11-02-2008", video: "<iframe width='560' height='315' src='https://www.youtube.com/embed/9anEIZMvB3o?rel=0' frameborder='0' allowfullscreen></iframe>")

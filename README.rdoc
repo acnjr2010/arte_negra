@@ -4,8 +4,8 @@ Página Arte Negra
 
 Things you may want to cover:
 
-* Ruby version
+Ruby version
 2.2.0
 
-* Code Climate
-[![Code Climate](https://codeclimate.com/github/acnjr2010/arte_negra/badges/gpa.svg)](https://codeclimate.com/github/acnjr2010/arte_negra)
+Code Climate
+{<img src="https://codeclimate.com/github/acnjr2010/arte_negra/badges/gpa.svg" />}[https://codeclimate.com/github/acnjr2010/arte_negra]

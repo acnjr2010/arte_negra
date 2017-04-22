@@ -15,6 +15,8 @@ gem 'font-awesome-sass', '~> 4.7'
 gem 'figaro'
 gem 'puma'
 gem 'rails_12factor', group: :production
+gem 'rails_admin', github: 'sferik/rails_admin'
+gem 'rails_admin_rollincode', '~> 1.0'
 
 group :development, :test do
   gem 'byebug'

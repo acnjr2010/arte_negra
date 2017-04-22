@@ -1,3 +1,5 @@
+User.create(email: 'nog.junior84@gmail.com', password: '123456', password_confirmation: '123456')
+
 Evento.create(title: "EVENTO XX ANOS", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
 Evento.create(title: "EVENTO XV ANOS", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
 Evento.create(title: "EVENTO X ANOS", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")

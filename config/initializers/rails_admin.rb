@@ -8,6 +8,12 @@ RailsAdmin.config do |config|
   end
   config.current_user_method(&:current_user)
 
+  config.main_app_name = ["Associação de Capoeira Arte Negra", ""]
+
+  config.model Welcome do
+    visible false
+  end
+
   ## == Cancan ==
   # config.authorize_with :cancan
 
@@ -27,7 +33,6 @@ RailsAdmin.config do |config|
     dashboard                     # mandatory
     index                         # mandatory
     new
-    export
     bulk_delete
     show
     edit
@@ -37,5 +42,41 @@ RailsAdmin.config do |config|
     ## With an audit adapter, you can add:
     # history_index
     # history_show
+  end
+
+  config.model Evento do
+    navigation_icon 'fa fa-calendar'
+    list do
+      field :title
+      field :content
+    end
+  end
+
+  config.model Video do
+    navigation_icon 'fa fa-youtube'
+    list do
+      field :title
+      field :video
+    end
+  end
+
+  config.model User do
+    navigation_icon 'fa fa-users'
+    list do
+      field :email
+      field :sign_in_count
+    end
+
+    create do
+      field :email
+      field :password
+      field :password_confirmation
+    end
+
+    edit do
+      field :email
+      field :password
+      field :password_confirmation
+    end
   end
 end

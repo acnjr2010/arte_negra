@@ -16,7 +16,8 @@ gem 'figaro'
 gem 'puma'
 gem 'rails_12factor', group: :production
 gem 'rails_admin', github: 'sferik/rails_admin'
-gem 'rails_admin_rollincode', '~> 1.0'
+gem 'rails_admin_rollincode', git: 'git@github.com:acnjr2010/rollincode_custon.git'
+gem 'better_errors'
 
 group :development, :test do
   gem 'byebug'

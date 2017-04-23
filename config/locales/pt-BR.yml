@@ -2,7 +2,7 @@ pt-BR:
   datetime:
     distance_in_words:
       x_days:
-        one: "1 dias"
+        one: "1 dia"
         other: "%{count} dias"
       about_x_mounts:
         one: "1 mês"

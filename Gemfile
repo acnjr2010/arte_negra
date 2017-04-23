@@ -15,7 +15,7 @@ gem 'font-awesome-sass', '~> 4.7'
 gem 'figaro'
 gem 'puma'
 gem 'rails_12factor', group: :production
-gem 'rails_admin', github: 'sferik/rails_admin'
+gem 'rails_admin', git: 'https://github.com/sferik/rails_admin.git'
 gem 'rails_admin_rollincode', git: 'https://github.com/acnjr2010/rollincode_custon.git'
 gem 'better_errors'
 

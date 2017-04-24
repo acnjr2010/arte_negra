@@ -3,9 +3,9 @@ User.create(email: 'nog.junior84@gmail.com', password: '123456', password_confir
 Evento.create(title: "EVENTO XX ANOS", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
 Evento.create(title: "EVENTO XV ANOS", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
 Evento.create(title: "EVENTO X ANOS", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
-Evento.create(title: "EVENTO X ANOS ARTE NEGRA SC", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
-Evento.create(title: "EVENTO VALTINHO DA SENZALA 2016", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
-Evento.create(title: "EVENTO SENZALA DE SANTOS 2016", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
+Evento.create(title: "X ANOS ARTE NEGRA", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
+Evento.create(title: "VALTINHO 2016", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
+Evento.create(title: "SENZALA 2016", content: "Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.")
 
 Video.create(title: "Homenagem ao Mestre Sombra", video: "<iframe width='560' height='315' src='https://www.youtube.com/embed/llhgZB5iPsI?rel=0' frameborder='0' allowfullscreen></iframe>")
 Video.create(title: "Roda dos Aniversariantes de Janeiro", video: "<iframe width='560' height='315' src='https://www.youtube.com/embed/_R1q93Z2Bjk?rel=0' frameborder='0' allowfullscreen></iframe>")

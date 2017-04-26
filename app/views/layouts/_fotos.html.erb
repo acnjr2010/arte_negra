@@ -2,15 +2,21 @@
   <div class="container">
     <h2>Recordações Arte Negra</h2>
     <hr class="sep">
-
-    <div>
-      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>
-      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
-      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
-      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
+    <div class="eventos-box">
+      <div class="row wow fadeInUp" data-wow-delay=".3s">
+        <% @albuns.each do |album| %>
+          <div class="col-md-4">
+            <div class="media-body">
+              <h3><%= album.title %></h3>
+              <p><%= link_to(image_tag(attachment_url(album.images.first, :file, :limit, 300, 300, format: 'jpg')), attachment_url(album.images.first, :file, :limit, 500, 500, format: 'jpg'), data: { lightbox: "example-set" }) %></p>
+              
+              <% album.images.each do |image| %>
+                <%= link_to(image_tag(attachment_url(image, :file, :limit, 300, 300, format: 'jpg')), attachment_url(image, :file, :limit, 500, 500, format: 'jpg'), data: { lightbox: "example-set" }, class: 'hidden') %>
+              <% end %>
+            </div>
+          </div>
+        <% end %>
+      </div>
     </div>
-
-
-
   </div>
 </section>

@@ -7,7 +7,9 @@ body:after {
 body.lb-disable-scrolling {
   overflow: hidden;
 }
-
+.hidden {
+  display: none;
+}
 .lightboxOverlay {
   position: absolute;
   top: 0;

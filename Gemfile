@@ -18,6 +18,8 @@ gem 'rails_12factor', group: :production
 gem 'rails_admin', git: 'https://github.com/sferik/rails_admin.git'
 gem 'rails_admin_rollincode', git: 'https://github.com/acnjr2010/rollincode_custon.git'
 gem 'better_errors'
+gem "refile", require: 'refile/rails', git: "https://github.com/refile/refile.git"
+gem "refile-mini_magick"
 
 group :development, :test do
   gem 'byebug'

@@ -21,19 +21,31 @@ pt-BR:
         other: "%{count} segundos"
   activerecord:
     models:
+      album:
+        one: Álbum
+        other: Álbuns
+      evento:
+        one: Evento
+        other: Eventos
+      image:
+        one: Imagem
+        other: Imagens
       user:
         one: Usuário
         other: Usuários
       video:
         one: Vídeo
         other: Vídeos
-      evento:
-        one: Evento
-        other: Eventos
-      foto:
-        one: Foto
-        other: Fotos
     attributes:
+      album:
+        title: Título
+        images: Imagens
+      evento:
+        title: Título
+        content: Conteúdo
+      image:
+        file: Arquivo
+        album: Álbum
       user:
         name: Nome
         document: Documento
@@ -55,11 +67,6 @@ pt-BR:
         sales: Vendas
       video:
         title: Título
-      evento:
-        title: Título
-        content: Conteúdo
-      foto:
-
   views:
   admin:
     home:
@@ -162,9 +169,9 @@ pt-BR:
       one_char: "caracter"
       char_length_up_to: "comprimento até"
       char_length_of: "comprimento de"
-      save: "Gravar"
-      save_and_add_another: "Gravar e criar outro"
-      save_and_edit: "Gravar e editar"
+      save: "Salvar"
+      save_and_add_another: "Salvar e criar outro"
+      save_and_edit: "Salvar e editar"
       all_of_the_following_related_items_will_be_deleted: "? Os seguintes item serão apagados ou deixados orfãos:"
       are_you_sure_you_want_to_delete_the_object: "Tem a certeza que quer apagar este %{model_name}"
       confirmation: "Sim, tenho a certeza"

@@ -79,4 +79,32 @@ RailsAdmin.config do |config|
       field :password_confirmation
     end
   end
+
+  config.model Image do
+    navigation_icon 'fa fa-image'
+    parent Album
+    weight -2
+
+    list do
+      field :file
+      field :album
+    end
+  end
+
+  config.model Album do
+    navigation_icon 'fa fa-camera'
+    list do
+      field :title
+      field :images
+    end
+
+    create do
+      field :title
+    end
+
+    edit do
+      field :title
+      field :images
+    end
+  end
 end
